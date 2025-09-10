@@ -14,8 +14,8 @@ interface NavButtonProps {
 
 const menuItems: MenuItem[] = [
   { label: "Home" },
-  { label: "About" },
   { label: "Services" },
+  { label: "About" },
   { label: "Resume" },
   { label: "Project" },
   { label: "Contact" },

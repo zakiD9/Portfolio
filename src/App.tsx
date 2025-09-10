@@ -1,24 +1,22 @@
 import './App.css'
 import Navbar from './components/Header'
 import HeroSection from './components/heroSection/HeroSection'
-import ProjectsSection from './components/projectssection/ProjectsSection'
+import HireMe from './components/HireMeSection'
+import Projects from './components/Projects'
 import ServicesSection from './components/ServicesSection/ServicesSection'
+import WorkExperience from './components/WorkExperience'
 
 function App() {
 
   return (
-    <div className="relative min-h-screen w-full py-10 flex flex-col items-center justify-start">
+    <div className="relative min-h-screen w-full flex flex-col items-center justify-start">
     <Navbar />
-  <section id="home">
     <HeroSection />
-  </section>
-  <section id="Services">
     <ServicesSection />
-  </section>
-  <section id="projects" className="min-h-screen">
-    <ProjectsSection />
-  </section>
-</div>
+    <WorkExperience />
+    <HireMe />
+    <Projects />
+    </div>
     
   )
 }
