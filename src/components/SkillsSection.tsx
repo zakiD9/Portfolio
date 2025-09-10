@@ -19,7 +19,7 @@ const skills: Skill[] = [
 
 export default function SkillsSection() {
   return (
-    <div className="flex flex-col items-center my-10">
+  <div className="flex flex-col items-center my-10">
         <div>
         <h1 className="text-2xl font-semibold text-center">Skills</h1>
         <hr className="border-t-4 mx-2 border-blue-700" />
@@ -43,8 +43,7 @@ export default function SkillsSection() {
       </div>
     </div>
   ))}
-</div>
     </div>
-    
+    </div>
   );
 }
