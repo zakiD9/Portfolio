@@ -15,7 +15,7 @@ export default function HeroSection(){
         <div className="hidden lg:flex flex-col w-[328px] h-[138px] items-start justify-start transition-transform duration-300 ease-in-out group-hover:-translate-y-[250px]">
           <div className="text-[#344054] text-[36px] leading-none">&quot;</div>
           <p className="text-[#344054] text-[16px] font-medium leading-snug">
-            Abhiruchi&apos;s exceptional product design ensured our website&apos;s success.
+            D9&apos;s exceptional Frontend Developer ensured our website&apos;s success.
             <br />
             Highly recommended.
           </p>
@@ -31,11 +31,11 @@ export default function HeroSection(){
             <div className="flex flex-col sm:flex-row sm:gap-2 items-center sm:items-end mb-1 mt-6 sm:mt-8">
               <CustomText title="I&apos;m" className="text-[#171717] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
               <div className="flex items-end">
-                <CustomText title="Abhiruchi" className="text-primary font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
+                <CustomText title="D9" className="text-primary font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
                 <CustomText title="," className="text-[#171717] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px]" />
               </div>
             </div>
-            <CustomText title="Professional Designer" className="text-[#171717] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px] text-center" />
+            <CustomText title="Web Developer" className="text-[#171717] font-semibold text-4xl sm:text-5xl md:text-7xl xl:text-[88px] text-center" />
           </div>
 
           <div className="relative w-full max-w-[952px] aspect-[3/2] flex flex-col items-center justify-center -translate-y-[10%] sm:-translate-y-[15%] md:-translate-y-[20%] mx-auto px-4">
@@ -74,7 +74,7 @@ export default function HeroSection(){
             ))}
           </div>
           <h1 className="text-[32px] font-bold text-[#171717] leading-none whitespace-nowrap">
-            10 Years
+            +1 Years
           </h1>
           <p className="text-sm text-[#171717]">Experience</p>
         </div>
