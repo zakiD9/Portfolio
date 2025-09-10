@@ -49,23 +49,36 @@ const Navbar: React.FC = () => {
     }
   };
 
-  useEffect(() => {
-    const sections = menuItems.map(item => document.getElementById(item.label.toLowerCase()));
+ useEffect(() => {
+  const sections = menuItems.map(item =>
+    document.getElementById(item.label.toLowerCase())
+  );
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting && entry.target.id) {
-            setSelected(entry.target.id.charAt(0).toUpperCase() + entry.target.id.slice(1));
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          if (id) {
+            setSelected(id.charAt(0).toUpperCase() + id.slice(1));
           }
-        });
-      },
-      { threshold: 0.5 }
-    );
+        }
+      });
+    },
+    {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    }
+  );
 
-    sections.forEach(section => section && observer.observe(section));
-    return () => sections.forEach(section => section && observer.unobserve(section));
-  }, []);
+  sections.forEach(section => section && observer.observe(section));
+
+  return () => {
+    sections.forEach(section => section && observer.unobserve(section));
+  };
+}, []);
+
 
   return (
     <nav className=" w-full top-5  fixed max-w-[1298px] h-[70px] sm:h-[80px] lg:h-[86px] bg-[#171717] text-white px-10 lg:px-2.5 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] backdrop-blur-[15px] mx-auto flex items-center justify-between z-50">

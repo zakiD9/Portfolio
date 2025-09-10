@@ -10,7 +10,7 @@ import { buttons, portfolioData } from '../data/data';
 export default function Projects(){
 
     return(
-        <section id="Projectt" className="w-full flex flex-col items-center px-4 sm:px-6 lg:px-[71px] py-12 sm:py-20 gap-10 lg:gap-12">
+        <section id="project" className=" w-screen flex flex-col items-center px-4 sm:px-6 lg:px-[71px] py-12 sm:py-20 gap-10 lg:gap-12">
         <div className="w-full flex flex-col sm:flex-row justify-between items-start lg:items-center gap-6">
           <div className="flex flex-col items-start max-w-full lg:max-w-[643px]">
             <CustomText

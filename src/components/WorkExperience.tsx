@@ -7,7 +7,7 @@ import {experiences } from '..//data/data';
 export default function WorkExperience(){
 
     return(
-        <section id="About" className="w-full min-h-[600px] lg:h-[827px] flex flex-col items-start mx-auto px-4 sm:px-6 lg:px-[71px] py-8 lg:py-16">
+        <section id="about" className="w-full min-h-[600px] lg:h-[827px] flex flex-col items-start mx-auto px-4 sm:px-6 lg:px-[71px] py-8 lg:py-16">
         <div className="w-full h-auto lg:h-[234px] flex lg:flex-row items-start justify-center space-x-2.5 mb-8 lg:mb-16 text-center lg:text-left">
           <CustomText title="My" className="font-medium text-4xl sm:text-5xl lg:text-6xl text-[#344054]" />
           <CustomText title="Work" className="font-medium text-4xl sm:text-5xl lg:text-6xl text-primary" />

@@ -16,13 +16,12 @@ const Footer = () => {
     ];
 
     const contact = [
-        "+91 9874563210",
-        "hello@gmail.com",
-        "hello.com"
+        "+213 699 23 11 20",
+        "zakariadjerboa@gmail.com",
     ]
 
     return (
-        <footer className="w-full min-h-[400px] lg:h-[685px] px-4 sm:px-6 lg:px-[71px] py-[30px] sm:py-[35px] lg:py-[40px] flex flex-col bg-[#000F3D] rounded-t-2xl sm:rounded-t-3xl text-white justify-between">
+        <footer className="w-screen min-h-[400px] lg:h-[685px] px-4 sm:px-6 lg:px-[71px] py-[30px] sm:py-[35px] lg:py-[40px] flex flex-col bg-[#000F3D] rounded-t-2xl sm:rounded-t-3xl text-white justify-between">
 
             <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-6">
                 <h1 className="font-semibold leading-tight text-[32px] sm:text-[40px] lg:text-[48px] xl:text-[64px] text-[#FCFCFD] text-center lg:text-left">
@@ -59,7 +58,7 @@ const Footer = () => {
                                     href={`https://${item.url}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10  rounded-full flex hover:scale-110 transition-transform bg-[#333333] hover:bg-[#444444] items-center justify-center"
+                                    className="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10  rounded-full flex hover:scale-110 transition-transform items-center justify-center"
                                 >
                                     <Icon size={16} className="sm:w-5 sm:h-5 lg:w-5 lg:h-5 text-primary" />
                                 </a>
@@ -115,7 +114,7 @@ const Footer = () => {
             <div className="border border-[#475467] w-full mt-8 lg:mt-16"></div>
 
             <div className="flex flex-col sm:flex-row w-full max-w-[1298px] h-auto lg:h-[26px] items-start justify-between gap-4 sm:gap-0 mt-6 md:mt-0">
-                <p className="w-full sm:w-[415px] h-auto lg:h-[26px] text-[16px] sm:text-[18px] lg:text-[20px] text-white text-center sm:text-left">Copyright© 2023 Jayesh. All Rights Reserved.</p>
+                <p className="w-full sm:w-[415px] h-auto lg:h-[26px] text-[16px] sm:text-[18px] lg:text-[20px] text-white text-center sm:text-left">Copyright© 2025 D9. All Rights Reserved.</p>
                 <a href={"#"} className="w-full sm:w-fit h-auto lg:h-[26px] text-[16px] sm:text-[18px] lg:text-[20px] text-white text-center sm:text-right hover:text-primary transition-colors">Privacy Policy</a>
             </div>
         </footer>

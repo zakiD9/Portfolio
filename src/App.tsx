@@ -12,7 +12,7 @@ import WorkExperience from './components/WorkExperience'
 function App() {
 
   return (
-    <div className="relative min-h-screen w-full flex flex-col items-center justify-start">
+    <div className="relative min-h-screen items-center w-full flex flex-col justify-start">
     <Navbar />
     <HeroSection />
     <ServicesSection />

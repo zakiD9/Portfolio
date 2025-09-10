@@ -8,7 +8,7 @@ import bgPic from "../assets/Frame 327 (Copy).png";
 export default function Testimonials(){
 
     return(
-         <div className="relative flex flex-col w-full min-h-[900px] items-center px-4 sm:px-6 lg:px-[71px] py-12 sm:py-[96px]  gap-12 bg-[#171717] rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] overflow-hidden">
+         <div className="relative flex flex-col w-screen min-h-[900px] items-center px-4 sm:px-6 lg:px-[71px] py-12 sm:py-[96px]  gap-12 bg-[#171717] rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] overflow-hidden">
         <img
           src={bgPic}
           alt="image"

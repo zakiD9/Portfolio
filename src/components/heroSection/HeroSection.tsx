@@ -15,9 +15,7 @@ export default function HeroSection(){
         <div className="hidden lg:flex flex-col w-[328px] h-[138px] items-start justify-start transition-transform duration-300 ease-in-out group-hover:-translate-y-[250px]">
           <div className="text-[#344054] text-[36px] leading-none">&quot;</div>
           <p className="text-[#344054] text-[16px] font-medium leading-snug">
-            D9&apos;s exceptional Frontend Developer ensured our website&apos;s success.
-            <br />
-            Highly recommended.
+            Websites don’t age well. Make yours timeless.
           </p>
         </div>
 

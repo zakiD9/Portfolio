@@ -2,7 +2,7 @@ import ClientOnly from "./ui/ClientOnly";
 import CustomText from "./ui/CustomText";
 import { iconAndText } from '../data/data';
 import { Button } from "./ui/button";
-import { MessageCircleIcon, MessageSquareCodeIcon } from "lucide-react";
+import { MessageSquareCodeIcon } from "lucide-react";
 
 
 
@@ -10,7 +10,7 @@ import { MessageCircleIcon, MessageSquareCodeIcon } from "lucide-react";
 export default function Contact(){
 
     return(
-        <section id="Contact" className="w-full flex flex-col items-center justify-center py-16 px-4 sm:px-6 lg:px-[71px] gap-10">
+        <section id="contact" className="w-full flex flex-col items-center justify-center py-16 px-4 sm:px-6 lg:px-[71px] gap-10">
         <div className="w-full max-w-4xl text-center flex flex-col items-center gap-4">
           <CustomText
             title="Have an Awesome Project"
