@@ -42,33 +42,7 @@ export default function Projects(){
             cardType="portfolio"
           />
 
-          <div className="w-full max-w-[947px] flex flex-wrap justify-center gap-4 sm:gap-[14px] items-center">
-            <ClientOnly>
-              {buttons.map((text, index) => (
-                <button
-                  key={index}
-                  className="px-6 sm:px-8 py-3 rounded-[24px] bg-[#F2F4F7] text-[#000000] text-[16px] sm:text-[18px] lg:text-[20px] hover:bg-primary hover:text-white transition-colors duration-300"
-                >
-                  {text}
-                </button>
-              ))}
-            </ClientOnly>
-          </div>
-
-          <div className="flex flex-col w-full max-w-[742px] items-start gap-6 px-4 sm:px-0">
-            <div className="flex flex-col sm:flex-row w-full items-start sm:items-center gap-4 sm:gap-[18px]">
-              <CustomText
-                title="Lirante - Food Delivery Solution"
-                className="font-bold text-[28px] sm:text-[32px] lg:text-[40px] text-[#344054]"
-              />
-              <div className="w-[50px] h-[50px] sm:w-[58px] sm:h-[58px] rounded-full bg-primary hidden md:flex items-center justify-center transition-all duration-300">
-                <ArrowButton className="transition-all duration-300 stroke-white -rotate-45" />
-              </div>
-            </div>
-            <p className="text-[16px] sm:text-[18px] lg:text-[20px] text-[#344054] text-center sm:text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.
-            </p>
-          </div>
+          
         </div>
       </section>
     )

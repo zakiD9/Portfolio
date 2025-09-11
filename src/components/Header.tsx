@@ -15,8 +15,6 @@ interface NavButtonProps {
 const menuItems: MenuItem[] = [
   { label: "Home" },
   { label: "Services" },
-  { label: "About" },
-  { label: "Resume" },
   { label: "Project" },
   { label: "Contact" },
 ];
@@ -84,7 +82,7 @@ const Navbar: React.FC = () => {
     <nav className=" w-full top-5  fixed max-w-[1298px] h-[70px] sm:h-[80px] lg:h-[86px] bg-[#171717] text-white px-10 lg:px-2.5 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] backdrop-blur-[15px] mx-auto flex items-center justify-between z-50">
 
       <div className="hidden lg:flex flex-1 justify-start gap-2.5">
-        {menuItems.slice(0, 3).map(item => (
+        {menuItems.slice(0, 2).map(item => (
           <NavButton key={item.label} item={item} selected={selected} handleClick={handleClick} className="w-[139px] h-[66px]" />
         ))}
       </div>
@@ -94,7 +92,7 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="hidden lg:flex flex-1 justify-end gap-4">
-        {menuItems.slice(3).map(item => (
+        {menuItems.slice(2).map(item => (
           <NavButton key={item.label} item={item} selected={selected} handleClick={handleClick} className="w-[139px] h-[66px]" />
         ))}
       </div>

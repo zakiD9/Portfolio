@@ -9,7 +9,7 @@ const projects = [
       "A personal portfolio built with React, Vite, Tailwind, and shadcn/ui to showcase my skills and projects.",
     cardLink: "https://yourportfolio.com",
     cardPicture:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f", // Laptop workspace
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f", 
     IsPicLeft: false,
     githubLink: "https://github.com/yourname/portfolio",
   },
@@ -19,7 +19,7 @@ const projects = [
       "A weather forecast app that uses OpenWeather API with real-time data and location-based search.",
     cardLink: "https://yourweatherapp.com",
     cardPicture:
-      "https://images.unsplash.com/photo-1501973801540-537f08ccae7b", // Weather clouds
+      "https://images.unsplash.com/photo-1501973801540-537f08ccae7b", 
     IsPicLeft: true,
     githubLink: "https://github.com/yourname/weather-app",
   },
@@ -29,7 +29,7 @@ const projects = [
       "A to-do list app with authentication, CRUD tasks, and drag-and-drop reordering.",
     cardLink: "https://yourtaskmanager.com",
     cardPicture:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c", // Productivity setup
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c", 
     IsPicLeft: false,
     githubLink: "https://github.com/yourname/task-manager",
   },
@@ -39,9 +39,9 @@ const projects = [
       "A real-time chat app built with WebSocket and Express, styled with Tailwind CSS.",
     cardLink: "https://yourchatapp.com",
     cardPicture:
-      "https://images.unsplash.com/photo-1553531384-397c80973a0b", // Chat illustration
+      "https://images.unsplash.com/photo-1553531384-397c80973a0b", 
     IsPicLeft: true,
-    isInProgress: true, // still in progress
+    isInProgress: true, 
     githubLink: "https://github.com/yourname/chat-app",
   },
 ];

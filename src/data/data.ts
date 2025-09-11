@@ -182,10 +182,9 @@ export const reviews: Review[] = [
 ];
 
 export const cardData: CardData[] = [
-  { title: "Jewellery Design", imageSrc: pic },
-  { title: "Mehndi Expert", imageSrc: pic },
-  { title: "Fashion Designer", imageSrc: pic },
-  { title: "Craft Expert", imageSrc: pic },
-  { title: "Beauty & Imitation", imageSrc: pic },
-  { title: "Designer Studio", imageSrc: pic },
+  { title: "Responsive Design", imageSrc: pic },
+  { title: "UI/UX Implementation", imageSrc: pic },
+  { title: "Performance Optimization", imageSrc: pic },
+  { title: "Future-Proof Frontends", imageSrc: pic },
+  { title: "Landing Pages", imageSrc: pic },
 ];
